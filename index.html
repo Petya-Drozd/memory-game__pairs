@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pairs Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="attempt">Left attempts: <span></span> </div>
+    <div class="modal active">
+      <div class="modal-block">
+        <p class="modal-title">Enter the number of cards</p>
+        <input type="number" class="modal-input qwe" value="">
+        <p class="modal-attention">Enter number from 2 to 9</p>
+        <button type="button" class="modal-btn btn btn--green"> Start Game</button>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="game-box">
+
+      </div>
+    </div>
+    <div class="congratulation">
+      <div class="congratulation-row">
+        <p class="congratulation-text">Congratulations, you've won! Would you like to start the game again?</p>
+        <button type="button" class="congratulation-btn btn">Yes, start a new game</button>
+      </div>
+    </div>
+    <div class="modal-lose">
+        <p class="modal-lose-text">You lose</p>
+        <button type="button" class="btn reset-same-game">Reset the same game</button>
+        <button type="button" class="btn reset-game">Start a new game</button>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

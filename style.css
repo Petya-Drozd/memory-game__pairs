@@ -161,7 +161,7 @@ input::-webkit-inner-spin-button {
   display: flex;
 }
 .congratulation-row {
-  width: 50%;
+  width: 300px;
   height: 150px;
   background-color: #ddc4c6;
   border-radius: 10px;
